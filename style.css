@@ -102,11 +102,11 @@ h3 {
 }
 
 #botao {
-    background-image: linear-gradient(to right, rgb(236, 228, 228), rgb(10, 10, 10));
+    background-image: linear-gradient(to right, rgb(189, 21, 21),white, rgb(11, 107, 59));
     width: 70%;
     border-radius: 15px;
     padding: 15px;
-    color: white;
+    color: black;
     border: 0px;
     outline: 0;
     font-family: serif;
@@ -116,7 +116,8 @@ h3 {
 #botao:hover {
     background-image: linear-gradient(to left, white, gray black);
     transition: 1s;
-    color: rgb(172, 16, 16);
+    color: white;
+    background-image: linear-gradient(to right,white, rgb(3, 3, 3),white);
     cursor: pointer;
 }
 
@@ -124,9 +125,11 @@ h3 {
 
 @media screen and (max-width: 500px) {
     h3{
-        color: rgb(192, 46, 10);
+        color: rgb(5, 112, 59);
         margin-left: 0;
-        font-size: 20px;
-        
+        font-size: 20px;   
+    }
+    .vermelho {
+        color: red;
     }
 }
