@@ -14,7 +14,6 @@ body {
     margin: auto;
     box-shadow: 1px 1px 5px black;
     border-radius: 20;
-    height: auto;
     position: relative;
 }
 
@@ -85,7 +84,7 @@ h3 {
 }
 
 #nomeApostador {
-    width: 50%;
+    width: 70%;
     height: 25px;
     border-radius: 5px;
 }
@@ -104,7 +103,7 @@ h3 {
 
 #botao {
     background-image: linear-gradient(to right, rgb(236, 228, 228), rgb(10, 10, 10));
-    width: 50%;
+    width: 70%;
     border-radius: 15px;
     padding: 15px;
     color: white;
@@ -125,9 +124,9 @@ h3 {
 
 @media screen and (max-width: 500px) {
     h3{
-        color: rgb(1, 69, 100);
+        color: rgb(192, 46, 10);
         margin-left: 0;
-        font-size: 22px;
+        font-size: 20px;
         
     }
 }
