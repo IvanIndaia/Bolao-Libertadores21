@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+}
+body {
+    background-color: rgba(247, 243, 243, 0.644);
+    font-family: serif;
+    position: relative;
+}
+
+/* ============================== INTERFACE ============================== */
+#interface {
+    background-color: rgba(201, 227, 238, 0.13);
+    max-width: 800px;
+    margin: auto;
+    box-shadow: 1px 1px 5px black;
+    border-radius: 20;
+    height: auto;
+    position: relative;
+}
+
+/* ============================== TOPPER ============================== */
+#topper {
+    position: sticky;
+    top: 0;
+    height: 20px;
+    text-align: center;
+    margin: auto;
+    background-image: linear-gradient( RED, black, red);
+    padding: 15px;
+}
+#subBody {
+    position: sticky;
+    top: 50px;
+    height: 25px;
+    text-align: center;
+    margin: auto;
+    background-image: linear-gradient(white, rgb(6, 95, 36), white);
+    padding: 15px;
+}
+    
+
+h2 {
+    color: white;
+    font-family: monospace;
+    box-shadow: 10px brown;
+}
+
+/* ============================== BET ============================== */
+
+#bet {
+    box-shadow: 1px 1px 5px rgb(46, 45, 45);
+    background-image: url(./images/jogadores-jogo.png);
+    background-position: 50%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    text-align: center;
+    width: 80%;
+    height: 350px;
+    display: block;
+    margin: auto;
+    margin-top: 0;
+    margin-top: 10px;
+    border-radius: 15px 10px 15px 10px;
+    
+}
+
+#apostaText {
+    padding: 20px;
+    position: static;
+}
+
+.placar {
+    width: 15px;
+    text-align: center;
+    margin: 5px;
+}
+
+#tela {
+    text-align: center;
+    width: 80%;
+    height: 350px;
+    display: block;
+    margin: auto;
+    margin-top: 0;
+    margin-top: 10px;
+    border-radius: 15px 10px 15px 10px;
+}
+
