@@ -45,6 +45,10 @@ h2 {
     box-shadow: 10px brown;
 }
 
+h3 {
+    font-size: 23px;
+}
+
 /* ============================== BET ============================== */
 
 #bet {
@@ -67,13 +71,23 @@ h2 {
 #apostaText {
     padding: 20px;
     position: static;
+    
 }
 
 .placar {
-    width: 15px;
+    width: 25px;
+    height: 25px;
     text-align: center;
     margin: 5px;
+    border-radius: 7px;
 }
+
+#nomeApostador {
+    width: 50%;
+    height: 25px;
+    border-radius: 5px;
+}
+
 
 #tela {
     text-align: center;
@@ -85,6 +99,28 @@ h2 {
     margin-top: 10px;
     border-radius: 15px 10px 15px 10px;
 }
+
+#botao {
+    background-image: linear-gradient(to right, rgb(236, 228, 228), rgb(10, 10, 10));
+    width: 50%;
+    border-radius: 15px;
+    padding: 15px;
+    color: white;
+    border: 0px;
+    outline: 0;
+    font-family: serif;
+    font-size: 18px;
+}
+
+#botao:hover {
+    background-image: linear-gradient(to left, white, gray black);
+    transition: 1s;
+    color: rgb(172, 16, 16);
+    cursor: pointer;
+}
+
+
+
 @media screen and (max-width: 500px) {
     h3{
         color: red;
