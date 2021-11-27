@@ -47,6 +47,7 @@ h2 {
 
 h3 {
     font-size: 23px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 /* ============================== BET ============================== */
@@ -80,6 +81,7 @@ h3 {
     text-align: center;
     margin: 5px;
     border-radius: 7px;
+    
 }
 
 #nomeApostador {
@@ -123,9 +125,9 @@ h3 {
 
 @media screen and (max-width: 500px) {
     h3{
-        color: red;
+        color: rgb(1, 69, 100);
         margin-left: 0;
-        font-size: 13px;
-    
+        font-size: 22px;
+        
     }
 }
