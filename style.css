@@ -73,8 +73,7 @@ h3 {
 
 #apostaText {
     padding: 20px;
-    position: static;
-    
+    margin-bottom: 10px;
 }
 
 .placar {
@@ -105,7 +104,7 @@ h3 {
     border-radius: 15px 10px 15px 10px;
 }
 
-#botao {
+.botao {
     background-image: linear-gradient(to right, rgb(189, 21, 21),white, rgb(11, 107, 59));
     width: 70%;
     border-radius: 15px;
@@ -117,7 +116,7 @@ h3 {
     font-size: 18px;
 }
 
-#botao:hover {
+.botao:hover {
     background-image: linear-gradient(to left, white, gray black);
     transition: 1s;
     color: white;
@@ -129,6 +128,23 @@ h3 {
     color: rgb(71, 2, 2);
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
+
+
+li {
+    text-align: left;
+}
+
+h5 {
+    font-size: 18px;
+    color: brown;
+    box-shadow: 2px 5px 15px black;
+    padding: 20px;
+}
+
+a {
+    text-decoration: none;
+}
+
 
 @media screen and (max-width: 500px) {
     h3{

@@ -14,7 +14,6 @@ function apostar () {
 
 
 
-
 /*
 
 //Cria Objeto ActiveX
